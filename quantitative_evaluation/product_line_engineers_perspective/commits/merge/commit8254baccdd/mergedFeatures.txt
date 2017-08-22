@@ -1,0 +1,1 @@
+USB_U_MS is merged with USB_F_MASS_STORAGE

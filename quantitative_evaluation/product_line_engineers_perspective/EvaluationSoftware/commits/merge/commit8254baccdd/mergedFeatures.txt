@@ -1,0 +1,1 @@
+USB_U_MS (source) is merged into USB_F_MASS_STORAGE (target)
