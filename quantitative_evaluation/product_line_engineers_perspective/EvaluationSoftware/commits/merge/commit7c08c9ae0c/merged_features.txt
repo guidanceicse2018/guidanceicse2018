@@ -1,1 +1,0 @@
-FB_IMAC is merged into FB_EFI

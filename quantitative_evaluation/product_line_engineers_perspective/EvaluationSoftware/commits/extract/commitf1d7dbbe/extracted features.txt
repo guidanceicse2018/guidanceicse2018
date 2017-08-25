@@ -1,3 +1,0 @@
-7 features were extracted from COMEDI_PCMCIA_DRIVERS <- used
-107 features were extracted from COMEDI_PCI_DRIVERS
-5 features were extracted from COMEDI

@@ -60,13 +60,15 @@ public class QuantitativeEvaluation {
 		
 //		String basePathDeleteFeaturefb5a515704 = "commits/remove/commitfb5a515704/";
 //		List<EvolutionOperation> deleteFeaturefb5a515704Operations = new ArrayList<EvolutionOperation>(1);
-//		deleteFeaturefb5a515704Operations.add(new RemoveFeatureWithArtifacts("PPC_EARLY_DEBUG_WSP"));
 //		deleteFeaturefb5a515704Operations.add(new RemoveFeatureWithArtifacts("PPC_WSP"));
-//		deleteFeaturefb5a515704Operations.add(new RemoveFeatureWithArtifacts("PPC_PSR2"));
-//		deleteFeaturefb5a515704Operations.add(new RemoveFeatureWithArtifacts("PPC_CHROMA"));
-//		deleteFeaturefb5a515704Operations.add(new RemoveFeatureWithArtifacts("PPC_A2"));
 //		
 //		performEvaluation(basePathDeleteFeaturefb5a515704, deleteFeaturefb5a515704Operations);
+//		
+//		String basePathDeleteFeatureb633648c5a = "commits/remove/commitb633648c5a/";
+//		List<EvolutionOperation> deleteFeatureb633648c5aOperations = new ArrayList<EvolutionOperation>(1);
+//		deleteFeatureb633648c5aOperations.add(new RemoveFeatureWithArtifacts("MIPS_MT_SMTC"));
+//		
+//		performEvaluation(basePathDeleteFeatureb633648c5a, deleteFeatureb633648c5aOperations);
 		
 //		String basePathExtractFeature995187bed3 = "commits/extract/commit995187bed3/";
 //		List<EvolutionOperation> extractFeature995187bed3Operations = new ArrayList<EvolutionOperation>(1);
@@ -74,25 +76,35 @@ public class QuantitativeEvaluation {
 //		
 //		performEvaluation(basePathExtractFeature995187bed3, extractFeature995187bed3Operations);
 		
-//		String basePathExtractFeaturef1d7dbbe = "commits/extract/commitf1d7dbbe/";
-//		List<EvolutionOperation> extractFeaturef1d7dbbeOperations = new ArrayList<EvolutionOperation>(3);
-//		extractFeaturef1d7dbbeOperations.add(new ExtractFeature("COMEDI_PCMCIA_DRIVERS"));
-//		extractFeaturef1d7dbbeOperations.add(new ExtractFeature("COMEDI_PCI_DRIVERS"));
-//		extractFeaturef1d7dbbeOperations.add(new ExtractFeature("COMEDI"));
+		String basePathExtractFeaturef1d7dbbe = "commits/extract/commitf1d7dbbe/";
+		List<EvolutionOperation> extractFeaturef1d7dbbeOperations = new ArrayList<EvolutionOperation>(3);
+		extractFeaturef1d7dbbeOperations.add(new ExtractFeature("COMEDI"));
+		
+		performEvaluation(basePathExtractFeaturef1d7dbbe, extractFeaturef1d7dbbeOperations);
+		
+//		String basePathExtractFeature347ec4e47d = "commits/extract/commit347ec4e47d/";
+//		List<EvolutionOperation> extractFeature347ec4e47dOperations = new ArrayList<EvolutionOperation>(1);
+//		extractFeature347ec4e47dOperations.add(new ExtractFeature("CPU_S5PV210"));
 //		
-//		performEvaluation(basePathExtractFeaturef1d7dbbe, extractFeaturef1d7dbbeOperations);
+//		performEvaluation(basePathExtractFeature347ec4e47d, extractFeature347ec4e47dOperations);
 		
-		String basePathMergeFeatures8254baccdd = "commits/merge/commit8254baccdd/";
-		List<EvolutionOperation> mergeFeatures8254baccddOperations = new ArrayList<EvolutionOperation>(1);
-		mergeFeatures8254baccddOperations.add(new MergeFeatures("USB_U_MS", "USB_F_MASS_STORAGE"));
+//		String basePathMergeFeatures8254baccdd = "commits/merge/commit8254baccdd/";
+//		List<EvolutionOperation> mergeFeatures8254baccddOperations = new ArrayList<EvolutionOperation>(1);
+//		mergeFeatures8254baccddOperations.add(new MergeFeatures("USB_U_MS", "USB_F_MASS_STORAGE"));
+//		
+//		performEvaluation(basePathMergeFeatures8254baccdd, mergeFeatures8254baccddOperations);
+//		
+//		String basePathMergeFeatures9c2b85f4f9 = "commits/merge/commit9c2b85f4f9/";
+//		List<EvolutionOperation> mergeFeatures9c2b85f4f9Operations = new ArrayList<EvolutionOperation>(1);
+//		mergeFeatures9c2b85f4f9Operations.add(new MergeFeatures("USB_U_RNDIS", "USB_F_RNDIS"));
+//		
+//		performEvaluation(basePathMergeFeatures9c2b85f4f9, mergeFeatures9c2b85f4f9Operations);
 		
-		performEvaluation(basePathMergeFeatures8254baccdd, mergeFeatures8254baccddOperations);
-		
-		String basePathMergeFeatures9c2b85f4f9 = "commits/merge/commit9c2b85f4f9/";
-		List<EvolutionOperation> mergeFeatures9c2b85f4f9Operations = new ArrayList<EvolutionOperation>(1);
-		mergeFeatures9c2b85f4f9Operations.add(new MergeFeatures("USB_U_RNDIS", "USB_F_RNDIS"));
-		
-		performEvaluation(basePathMergeFeatures9c2b85f4f9, mergeFeatures9c2b85f4f9Operations);
+//		String basePathMergeFeatures7c08c9ae0c = "commits/merge/commit7c08c9ae0c/";
+//		List<EvolutionOperation> mergeFeatures7c08c9ae0cOperations = new ArrayList<EvolutionOperation>(1);
+//		mergeFeatures7c08c9ae0cOperations.add(new MergeFeatures("FB_IMAC", "FB_EFI"));
+//		
+//		performEvaluation(basePathMergeFeatures7c08c9ae0c, mergeFeatures7c08c9ae0cOperations);
 	}
 	
 	

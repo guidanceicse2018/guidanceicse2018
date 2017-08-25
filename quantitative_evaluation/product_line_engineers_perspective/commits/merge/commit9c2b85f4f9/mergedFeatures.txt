@@ -1,1 +1,0 @@
-USB_U_RNDIS is merged with USB_F_RNDIS

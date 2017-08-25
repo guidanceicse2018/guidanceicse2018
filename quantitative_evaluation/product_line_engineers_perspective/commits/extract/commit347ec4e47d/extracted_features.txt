@@ -1,0 +1,1 @@
+GPIO_S5PV210 was extracted from CPU_S5PV210
